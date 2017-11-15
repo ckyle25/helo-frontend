@@ -15,9 +15,9 @@ class Navbar extends Component {
                 <img src={search} className='img-style'></img>
             </div>
             <div className='text-style'>Dashboard</div>
-            <div className='text-style'>Logout</div>
+            <a href="http://localhost:3005/auth/logout"><div className='text-style'>Logout</div></a>
         </div>
-      </div>
+      </div> 
     );
   }
 }
